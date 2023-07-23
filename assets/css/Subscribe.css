@@ -135,7 +135,7 @@
 
 @media(max-width:767px) {
     .Subscribe{
-        background-size: contain;
+        /* background-size: contain; */
         margin-top: 78px;
     }
     .Subscribe .specifications {
