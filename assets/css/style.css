@@ -1321,7 +1321,8 @@ a {
         cursor: pointer;
         transition-duration: .7s;
         position: absolute;
-        opacity: 0%;
+        /* opacity: 0%; */
+        display: none;
         width: 350px;
         /* height: 550px; */
     }
@@ -1375,12 +1376,14 @@ a {
     .cards-blog .card.active-card {
         z-index: 2;
         opacity: 100%;
+        display: block;
         left: 50%;
         right: auto;
         transform: translate(-55%);
         transition-duration: .5s;
     }
     .cards-blog .card.prev-card {
+        display: block;
         opacity: 40%;
         left: -30%;
         right: auto;
@@ -1388,6 +1391,7 @@ a {
         transition-duration: .5s;
     }
     .cards-blog .card.next-card {
+        display: block;
         right: -30%;
         left: auto;
         opacity: 40%;
