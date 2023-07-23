@@ -1153,7 +1153,7 @@ a {
         position: absolute;
         opacity: 0%;
         width: 200px;
-        height: 340px;
+        height: 370px;
     }
     .cards-issuing .card .info {
         padding: 5px !important;
@@ -1409,7 +1409,7 @@ a {
         /* height: 340px; */
     }
     .cards-blog {
-        height: 450px;
+        /* height: 450px; */
     }
     .blogs .cards-blog .card .text{
         padding: 5px 10px;
