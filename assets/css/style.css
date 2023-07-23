@@ -1409,7 +1409,7 @@ a {
         /* height: 340px; */
     }
     .cards-blog {
-        /* height: 450px; */
+        height: 470px;
     }
     .blogs .cards-blog .card .text{
         padding: 5px 10px;
@@ -1465,4 +1465,10 @@ a {
     width: 16px;
     height: 16px;
     background-color: #355096;
+}
+
+@media(max-width : 767px) {
+    .blogs .dots-blog {
+        transform: translateY(-40px);
+    }
 }

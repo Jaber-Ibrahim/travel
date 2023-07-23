@@ -5,7 +5,9 @@
     justify-content: space-between;
     gap: 6.4rem;
 }
-
+.About .about-head-container {
+    margin-top: 0;
+} 
 
 .About .details {
     width: 48.09663%;
