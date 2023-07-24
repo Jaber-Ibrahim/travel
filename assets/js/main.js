@@ -111,6 +111,28 @@ for (let k = 0 ; k < issuingCards.length ; k++) {
         dots.children[k].click()
     }
 }
+for(let m = 0 ; m< issuingCards.length ; m++) {
+    let FirstValue = 0;
+    let secValue = 0 ;
+    issuingCards[m].ondragstart = (e) => { 
+        FirstValue = e.screenX;
+    }
+    issuingCards[m].ondragover = (e1) => {
+        secValue= e1.screenX;
+        if(FirstValue > secValue + 30) {
+            if(m >= 0 && m < dots.children.length - 1 )
+            dots.children[m+1].click();
+            if(m === dots.children.length - 1)
+            dots.children[0].click();
+        }
+        if(FirstValue < secValue - 30) {
+            if(m > 0 && m < dots.children.length - 1 )
+            dots.children[m-1].click();
+            if(m === 0)
+            dots.children[dots.children.length-1].click();
+        }
+    }
+}
 
 
 // slider blogs
@@ -141,7 +163,30 @@ for(let i = 0 ; i < dotsBl.children.length ; i++ ) {
 }
 for (let k = 0 ; k < blogCards.length ; k++) {
     blogCards[k].onclick = () => {
-        console.log("ssss")
+        // console.log("ssss")
         dotsBl.children[k].click()
     }
 }
+for(let m = 0 ; m< blogCards.length ; m++) {
+    let FirstValue = 0;
+    let secValue= 0 ;
+    blogCards[m].ondragstart = (e) => { 
+        FirstValue = e.screenX;
+    }
+    blogCards[m].ondragover = (e1) => {
+        secValue= e1.screenX;
+        if(FirstValue > secValue + 30) {
+            if(m >= 0 && m < dotsBl.children.length - 1 )
+            dotsBl.children[m+1].click();
+            if(m === dotsBl.children.length - 1)
+            dotsBl.children[0].click();
+        }
+        if(FirstValue < secValue - 30) {
+            if(m > 0 && m < dotsBl.children.length - 1 )
+            dotsBl.children[m-1].click();
+            if(m === 0)
+            dotsBl.children[dotsBl.children.length-1].click();
+        }
+    }
+}
+// 

@@ -56,8 +56,8 @@ function fetchQuestion() {
         "cat"    : "visas"
     },
     {
-        "question"       : "4-What the information and transactions are required for requesting visa?  ",
-        "answer" : "For the tourism visa :  activated passport at least six months- personal photo-Copied photo of passport.<br>For the family visitor visa : activated passport at least six months -personal photo- copied photo of passport – work contract for host with salary 5000 dirhams or more – authenticated proof of kinship – family document or marriage contract or license of birth.        ",
+        "question"       : "4-What the information and transactions are required for requesting visa?",
+        "answer" : "For the tourism visa :  activated passport at least six months- personal photo-Copied photo of passport.<br>For the family visitor visa : activated passport at least six months -personal photo- copied photo of passport – work contract for host with salary 5000 dirhams or more – authenticated proof of kinship – family document or marriage contract or license of birth.",
         "cat"    : "visas"
     },
     {
@@ -83,7 +83,7 @@ function fetchQuestion() {
 
     {
         "question"       : "4-What is the required information I have to give you for visa or hotel reservation?",
-        "answer" : "We do not request any secret information:<br>The full name.<br>details about the trip (starting position– destination - departure dates)<br>details about the hotel (the city –check in and check out dates (",
+        "answer" : "We do not request any secret information:<br>The full name.<br>details about the trip (starting position– destination - departure dates)<br>details about the hotel (the city –check in and check out dates )",
         "cat"    : "services"
     }
   ]};
@@ -127,12 +127,12 @@ function fetchQuestion() {
 
         <div class="accordion-item ${array[index].cat}">
                   <h2 class="accordion-header" id="heading${index}">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}" aria-expanded="false" aria-controls="collapse${index}">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${index}" aria-expanded="false" aria-controls="collapse${index}" data-tr="questions-${array[index].cat}-${index}">
                         ${array[index].question}
                     </button>
                   </h2>
                   <div id="collapse${index}" class="accordion-collapse collapse" aria-labelledby="heading${index}" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
+                    <div class="accordion-body" data-tr="answers-${array[index].cat}-${index}">
                     ${array[index].answer}
                     </div>
                   </div>
@@ -142,21 +142,3 @@ function fetchQuestion() {
       }
   }
  
-//   function removeAddActive() {
-//     myLisToFilter.forEach(element => {
-//         element.classList.remove("active");
-//     });
-//     this.classList.add("active");
-// };
-
-
-// function manageImgs(array) {
-//     array.forEach(item => {
-//         item.style.display = "none";
-//     });
-//     let items = document.querySelectorAll(this.dataset.cat);
-//     console.log(items);
-//     items.forEach(item => {
-//         item.style.display = "block";
-//     });
-// };
