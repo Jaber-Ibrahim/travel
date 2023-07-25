@@ -195,4 +195,11 @@
     line-height: 27.6px; /* 98.571% */
 }
 
+@media(max-width : 767px) {
+    .ar .Subscribe .specifications h1 {
+        font-size: 1.2rem;
+        line-height: normal;
+    }
+}
+
 

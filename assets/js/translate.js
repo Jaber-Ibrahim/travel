@@ -158,70 +158,6 @@ let translations = {
         
         "Questions-ul-li-3"                        : "Services" ,
 
-        "questions-reservation-0"                  : "1-Which airports in United Arab Emirates can I travel from?"  ,
-
-        "questions-reservation-1"                  : "2-Which airports in Syria can I travel from?"  ,
-        
-        "questions-reservation-2"                  : "3-Can I book only one way trip?"  ,
-        
-        "questions-reservation-3"                  : "4-Are there specific destinations at your company or I can book what I want?"  ,
-        
-        "questions-reservation-4"                  : "5-What is the related information for booking to United Arab Emirates?"  ,
-
-        "questions-reservation-5"                  : "6-What is the allowed weight can I bring with me?"  ,
-
-        "questions-reservation-6"                  : "7-Shall I inquire more about the price of tickets?"  ,
-        
-        "questions-visas-0"                        : "1-Could I inquire more information about visas?"  ,
-        
-        "questions-visas-1"                        : "2-How long time for visa to be done?"  ,
-        
-        "questions-visas-2"                        : "3-How long the expiration for visa before ended?"  ,
-
-        "questions-visas-3"                        : "4-What the information and transactions are required for requesting visa?"  ,
-        
-        "questions-visas-4"                        : "5-Could I inquire more about visa’s prices?"  ,
-
-        "questions-services-0"                     : "1-Could I print the trip’s path which I received and send it to the Embassy?"  ,
-
-        "questions-services-1"                     : "2-How can I trust with you and your service and why I should use it?"  ,
-        
-        "questions-services-2"                     : "3-Are there any canceled transections for tickets I have to do after getting the visa? If there are, how much they cost?"  ,
-        
-        "questions-services-3"                     : "4-What is the required information I have to give you for visa or hotel reservation?"  ,
-
-        "answers-reservation-0"                    : "We can offer airflights reservation service between United Arab Emirates and Syria Through the following airports: Dubai Sharjah - Abu Dhabi" ,
-        
-        "answers-reservation-1"                    : "We can offer airflights reservation service between United Arab Emirates and Syria through the following airports: Damascus – Aleppo- Lattakia" ,
-        
-        "answers-reservation-2"                    : "The reservation could be only from Syria to United Arab Emirates or the opposite state. In other cases, could be from Syria to United Arab Emirates then back to Syria or the opposite state." ,
-        
-        "answers-reservation-3"                    : "because we are agents with many of airline companies, we will divide the reservations into two categories :<br> the first category: <br>1-from UAE to more 200 destinations around the world.<br>2-between UAE and Syria.<br> The second category: <br>around the world where we book online for traveler whatever the destination or airline company could be." ,
-        
-        "answers-reservation-4"                    : "for travelers to United Arab Emirates, they need passport with expiration longer than six months, residence document for resident and entry visa for visitor. " ,
-        
-        "answers-reservation-5"                    : "In general cases, the allowed weight for traveler is 30kg or 20kg with additional 7kg hand-bag. it is possible to add an amount to the basic weight, you can communicate with customer service to inquire more." ,
-        
-        "answers-reservation-6"                    : "the ticket's price can vary in accordance with the trip's date. you can communicate with customer service team to help you know more about our prices and choose what you like." ,
-        
-        "answers-visas-0"                          : "-The primary visas which we offer to the United Arab Emirates are in three kinds:<br>Tourism visa (single entry): this kind of visas is the most requested visa in United Arab Emirates with rate 90% and is one of the primary services we offer in Almukhtar company<br> -Tourism visa (multiple entry)<br>-Family visitor visa." ,
-        
-        "answers-visas-1"                          : "We spend about one or two days for all kinds of visas (tourism, family visitor) which we offer in our company." ,
-        
-        "answers-visas-2"                          : "The expiration at the first time (entry to UAE) is two months.<br>Whereas after the entry may vary if the visa is tourism depends on the client’s demand   ( one or two months)." ,
-        
-        "answers-visas-3"                          : "For the tourism visa :  activated passport at least six months- personal photo-Copied photo of passport.<br>For the family visitor visa : activated passport at least six months -personal photo- copied photo of passport – work contract for host with salary 5000 dirhams or more – authenticated proof of kinship – family document or marriage contract or license of birth." ,
-        
-        "answers-visas-4"                          : "you can communicate with the customer service team to know all the kinds and prices of visas which are available and help you to choose what you want." ,
-        
-        "answers-services-0"                       : "Of course. We will send you the trip’s path via E-mail with pdf format and you can print it and give it to the embassy as evidence for travelling." ,
-        
-        "answers-services-1"                       : "1-You can view what our clients say about us.<br>2-Our documents are legal and optimal for any related purposes.<br> 3-We save our clients with rate 100% through PayPal payment gateway. <br> 4-We save you from risk and you will not pay thousands of dollars for booking.<br>5-We have many partners with our network like airline companies.<br>6-We can deal with many changes related to the trip path without any additional cost.<br>7-We have the ability to keep the bookings for a long time.<br>8-We can book again the same trip path with different airline companies.<br>9-We work all the time for you to be not worried when you are outside the embassy searching for help" ,
-        
-        "answers-services-2"                       : "We offer the cancelation of booking behalf of you. There is no need to be worried for any additional payment or anything else. What you pay is fees for only booking flight or hotels.<br>After you get visa, put your plan and be excited with your trip" ,
-        
-        "answers-services-2"                       : "We do not request any secret information:<br>The full name.<br>details about the trip (starting position– destination - departure dates)<br>details about the hotel (the city –check in and check out dates )" ,
-        
         "Subscribe-specifications-h1-1"            : "safe" ,
 
         "Subscribe-specifications-p-1"             : "Your customer data is secured and only available for you" ,
@@ -585,6 +521,9 @@ let translations = {
         "footer-End-p"                             : "Copyright &copy; 2021 Almukhtar. All rights reserveds" ,
     },
 }
+
+
+
 let elements = document.querySelectorAll("[data-tr]");
 const lang = document.querySelector('.selected-lang')
 console.log(lang.options.length)
@@ -596,32 +535,7 @@ console.log(langg.options[1])
 
 let myHtml = document.querySelector("html")
 
-let bottomHeader = document.querySelector(".bottom-header")
-
-// lang.forEach ((e) => {
-//   e.addEventListener('change' , () => {
-//     if (e.value == "ar") {
-      
-//       elements.forEach((element) => {
-//         let translationKey = element.getAttribute("data-tr");
-//         element.innerHTML = translations["ar"][translationKey];
-//         myHtml.setAttribute("dir" , "rtl")
-//         element.style.fontFamily  = "'Tajawal', sans-serif";
-//         document.body.classList.add("ar")
-        
-//       });
-//     }else{
-//       elements.forEach((element) => {
-//         let translationKey = element.getAttribute("data-tr");
-//         element.innerHTML = translations["en"][translationKey];
-//         element.style.fontFamily  = "'Raleway', sans-serif";
-//         myHtml.setAttribute("dir" , "ltr")
-//         document.body.classList.remove("ar")
-
-//       });
-//     }
-//   })
-// })
+let myLis = document.querySelectorAll(".Questions .category ul li");
 
 
 
@@ -629,6 +543,7 @@ let bottomHeader = document.querySelector(".bottom-header")
 
   lang.addEventListener('change' , () => {
     if (lang.value == "ar") {
+
       langg.options[1].selected = true;
       elements.forEach((element) => {
         let translationKey = element.getAttribute("data-tr");
@@ -636,9 +551,23 @@ let bottomHeader = document.querySelector(".bottom-header")
         myHtml.setAttribute("dir" , "rtl")
         element.style.fontFamily  = "'Tajawal', sans-serif";
         document.body.classList.add("ar")
+        document.body.classList.remove("en")
         
+
+
+      myLis.forEach(li => {
+        if (li.classList.contains("active")) {
+          li.click();
+        }
+      });
+
+
+
+
+
       });
     }else{
+
       langg.options[0].selected = true;
       elements.forEach((element) => {
         let translationKey = element.getAttribute("data-tr");
@@ -646,6 +575,15 @@ let bottomHeader = document.querySelector(".bottom-header")
         element.style.fontFamily  = "'Raleway', sans-serif";
         myHtml.setAttribute("dir" , "ltr")
         document.body.classList.remove("ar")
+        document.body.classList.add("en")
+
+
+        myLis.forEach(li => {
+          if (li.classList.contains("active")) {
+            li.click();
+          }
+        });
+
 
       });
     }
@@ -656,6 +594,7 @@ let bottomHeader = document.querySelector(".bottom-header")
 
 
     langg.addEventListener('change' , () => {
+
       if (langg.value == "ar") {
         lang.options[1].selected = true;
         elements.forEach((element) => {
@@ -664,10 +603,24 @@ let bottomHeader = document.querySelector(".bottom-header")
         myHtml.setAttribute("dir" , "rtl")
         element.style.fontFamily  = "'Tajawal', sans-serif";
         document.body.classList.add("ar")
+        document.body.classList.remove("en")
+
+        
+
+
+      myLis.forEach(li => {
+        if (li.classList.contains("active")) {
+          li.click();
+        }
+      });
+
+
+
+
         
       });
     }else{
-      lang.options[0].selected = true;
+     lang.options[0].selected = true;
       elements.forEach((element) => {
         let translationKey = element.getAttribute("data-tr");
         element.innerHTML = translations["en"][translationKey];
@@ -675,7 +628,19 @@ let bottomHeader = document.querySelector(".bottom-header")
         element.style.fontFamily  = "'Raleway', sans-serif";
         myHtml.setAttribute("dir" , "ltr")
         document.body.classList.remove("ar")
+        document.body.classList.add("en")
 
+
+
+        myLis.forEach(li => {
+          if (li.classList.contains("active")) {
+            li.click();
+          }
+        });
+  
+  
+  
+   
       });
     }
   })

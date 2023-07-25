@@ -68,6 +68,7 @@ cursor: pointer;
   line-height: 52.8px !important;
   background-color: #fff;
   outline: none;
+  text-align: start !important;
 }
 
 .Questions .accordion-header .accordion-button:not(.collapsed) {
