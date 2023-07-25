@@ -20,7 +20,7 @@
 }
 .Reviews .container .carousel-inner .carousel-item p {
     color: #151515;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' !important;
     font-size: 1.8rem !important;
     font-weight: var(--fw-400) !important;
     line-height: 29.25px;

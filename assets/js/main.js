@@ -2,6 +2,10 @@
 const sections = document.querySelectorAll("section[id]");
 
 
+
+let myLang = document.querySelector(".top-header .lang") ;
+
+
 console.log(sections)
 
     window.addEventListener("scroll", navHighlighter);
@@ -51,9 +55,11 @@ window.onscroll = () => {
 
 // navigation mobile
 const icon = document.querySelector(".icon");
+
 const overlay = document.querySelector(".overlay")
 icon.onclick = () => {
     overlay.classList.toggle("trans")
+    myLang.classList.toggle("active");
     if(icon.children[0].classList.contains("span-anim-in-s1")){
         for(let i = 0 ; i< icon.children.length ; i++){
             icon.children[i].setAttribute("class",`span-anim-out-s${i+1}`);
@@ -190,3 +196,5 @@ for(let m = 0 ; m< blogCards.length ; m++) {
     }
 }
 // 
+
+

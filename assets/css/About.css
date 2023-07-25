@@ -15,7 +15,7 @@
 
 .About .details p {
     font-size: 2rem;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' !important;
     line-height: 3.2rem;
 }
 
@@ -50,7 +50,7 @@
 
 .About .achieve li span {
     color: var(--span-color);
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' !important;
     font-size: 2rem;
     line-height: 3.2rem;
     padding-left: 2rem;
@@ -93,4 +93,21 @@
         height: 28px;
         bottom: -28px;
     }
+}
+
+
+
+
+
+
+
+
+/* arabic style */
+
+
+
+
+.ar .About .achieve li span {
+    padding-left: 0;
+    padding-right: 2rem;
 }

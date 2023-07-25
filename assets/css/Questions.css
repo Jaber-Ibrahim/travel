@@ -80,7 +80,10 @@ cursor: pointer;
   line-height: normal !important;
   box-shadow: none !important;
 }
-
+.Questions .accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon) !important;
+  transform: var(--bs-accordion-btn-icon-transform);
+}
 .Questions .accordion-body {
   /* background-color: #FFF0EF; */
 }
@@ -91,7 +94,7 @@ cursor: pointer;
 }
 .Questions .accordion-body {
   color: rgba(0, 0, 0, 0.80);
-  font-family: 'Open Sans';
+  font-family: 'Open Sans' !important;
   font-size: 1.6rem !important;
   line-height: 32px;
 }
@@ -147,3 +150,9 @@ cursor: pointer;
 
 
 
+
+
+.ar .accordion-button::after {
+  margin-left: 0;
+  margin-right: auto;
+}

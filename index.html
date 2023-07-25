@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="./assets/css/Contact.css">
     <link rel="stylesheet" href="./assets/css/Footer.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>ِAl Mokhtar Travel</title>
+    <title>Al Mokhtar Travel</title>
 </head>
 <body>
     <div class="overlay trans d-flex-mobile align-items-center justify-content-center">
@@ -80,33 +80,41 @@
     </div>
 
     
-    <div class="lang-mobile d-flex-mobile d-none">
-        <span class="selected-lang" data-tr="EN">EN</span>
-        <i class="fa-solid fa-sort-down"></i>
+    <div class="d-flex-mobile d-none">
+        <!-- <span class="selected-lang" data-tr="EN">EN</span> -->
+        <select class="lang-mobile">
+          <option value="en" selected>EN</option>
+          <option value="ar">AR</option>
+        </select>
+        <!-- <i class="fa-solid fa-sort-down"></i> -->
       </div>
     
     <section class="home" id="home">
         <div class="top-header d-none-mobile">
-            <div class="container d-flex justify-content-between align-items-center w-100">
-                <div class="email py-2">
+            <div class="container ar-direction d-flex justify-content-between align-items-center w-100">
+                <div class="email py-2 d-none-mobile">
                     <i class="fa-solid fa-envelope pe-1"></i>
                     <span>Almukhtar@domain.com</span>
                 </div>
                 <div class="language-and-social d-flex ">
-                    <div class="social py-2 me-3">
+                    <div class="social py-2 me-3 d-none-mobile">
                         <img src="./assets/img/facebook.svg" class="px-1" alt="facebook">
                         <img src="./assets/img/instagram.svg" class="px-1" alt="instagram">
                         <img src="./assets/img/linkedin.svg" class="px-1" alt="">
                     </div>
                     <div class="lang p-2">
-                        <span class="selected-lang" data-tr="EN">EN</span>
-                        <i class="fa-solid fa-sort-down ps-2"></i>
+<!--                         <span class="selected-lang" data-tr="EN">EN</span> -->
+                        <select class="selected-lang">
+                          <option value="en" selected>EN</option>
+                          <option value="ar">AR</option>
+                        </select>
+<!--                         <i class="fa-solid fa-sort-down ps-2"></i> -->
                     </div>
                 </div>
             </div>
         </div>
         <div class="bottom-header pt-4">
-            <div class="container d-flex justify-content-between align-items-center">
+            <div class="container ar-direction d-flex justify-content-between align-items-center">
                 <div class="logo ms-3 ms-0-mobile"><img src="./assets/img/Layer 3.svg" alt=""></div>
                 <div class="links-list d-none-mobile">
                     <ul class="links d-flex">
@@ -342,8 +350,8 @@
                             >
                           </div>
                         </div>
-                        <div class="text" data-tr="tourism-visa-title">
-                          <h4>Tourism visa (single entry)</h4>
+                        <div class="text">
+                          <h4 data-tr="tourism-visa-title">Tourism visa (single entry)</h4>
                           <p data-tr="tourism-visa-description">
                             <strong
                               >I can help you book an airline ticket after you obtain
@@ -501,8 +509,7 @@
                     <div class="sites" data-tr="blog-1-tags">#Tourism, #Dubai</div>
                     <div class="link">
                       <a href="" data-tr="view-more"
-                        >Read More<i class="fa-solid fa-arrow-right ms-2"></i
-                      ></a>
+                        >Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
                     </div>
                   </div>
                 </div>
@@ -774,7 +781,7 @@
                     <div class="col-4">
                         <img src="./assets/img/clock2.svg" alt="">
                         <h1 data-tr="Subscribe-specifications-h1-3">fast</h1>
-                        <p data-tr="Subscribe-specifications-p-4">Uses the latest technology, the system running quickly and reliably</p>
+                        <p data-tr="Subscribe-specifications-p-3">Uses the latest technology, the system running quickly and reliably</p>
                     </div>
                 </div>
             
@@ -811,8 +818,8 @@
     
        <div class="container">
         <div class="head-container">
-            <h2 data-tr="Contact-head-container-h2">let's talk</h2>
-            <h1 class="main-heading" data-tr="Contact-head-container-h1">contact us</h1>
+            <h2 data-tr="Contact-head-container-h2" class="contact-h2">let's talk</h2>
+            <h1 class="main-heading contact-h1" data-tr="Contact-head-container-h1">contact us</h1>
             <p class="head-para" data-tr="Contact-head-container-p">Ask us any questions related to flight itinerary for visa, hotel bookings for visa or travel medical insurance for visa. We even appreciate a ‘Hello’ from you!</p>
         </div>
     
@@ -946,5 +953,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- main javaScript -->
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/translate.js"></script>
 </body>
 </html>

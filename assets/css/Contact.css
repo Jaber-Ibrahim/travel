@@ -52,7 +52,7 @@
 .Contact .branch .left h1,
 .Contact .branch span {
     color: #FFF;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' !important;
     font-weight: var(--fw-600);
     line-height: 24px;
 }
@@ -117,4 +117,30 @@
         height: 234px;
     }
     
+}
+
+
+
+/* Arabic */
+
+.ar .Contact .head-container .main-heading {
+    font-size: 4rem;
+    letter-spacing: 0.6px;
+}
+
+.ar .Contact .head-para {
+    font-size: 1.6rem;
+}
+
+
+
+
+.ar .Contact .branch .left h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: var(--fw-700);
+}
+
+.ar .Contact .branch span {
+    font-weight: var(--fw-500);
 }

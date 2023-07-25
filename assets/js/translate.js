@@ -10,7 +10,7 @@ let translations = {
         
         "contact-us"                               : "Contact Us",
         
-        "Created by:"                              : "Created by:",
+        "Created by :"                              : "Created by:",
         
         "EN"                                       : "EN",
         
@@ -35,73 +35,74 @@ let translations = {
         "book-flights"                             :"Book comfortable flights easily with our airline ticket booking service.",
         
         "issuance-of-visas"                        : "Issuance of Visas",
-        
-        "visa-application"                         : "احصل على تأشيرتك بكل سهولة ويسر مع خدمة إصدار التأشيرات السهلة والمريحة لدينا، وتجنب عناء التقديم ومتابعة الإجراءات",
 
+        "visa-application"                         : "Experience hassle-free visa application with our easy and convenient visa application service",
         
-        "hotel-reservation-service"                : "خدمة حجز الفنادق",
+        "hotel-reservation-service"                : "Hotel reservation service",
         
-        "select-hotels"                            : "تقدم خدمة حجز الفنادق الخاصة بنا مجموعة واسعة من الفنادق والمنتجعات بأسعار تنافسية لإقامة مريحة وممتعة",
+        "select-hotels"                            : "Our hotel reservation service offers a wide selection of competitively-priced hotels and resorts for comfortable and enjoyable stay",
+      
+        "tourism-programs"                         : "Tourism programs",
+      
+        "comprehensive-travel"                     : "We offer comprehensive travel experiences with customized packages and local expertise, providing travelers with stress-free trip",
+        
+        "booking-your-flight"                      : "Booking Your Flight",
+        
+        "reservations-world"                       : "Reservations around the world ...",
+        
+        "mukhtar-company"                          : "Al Mukhtar Company offers bookings to worldwide destinations, allowing travelers to choose their preferred airlines and destinations. In addition, we provide direct booking services for flights to and from the United Arab Emirates, in order to provide fast and competitive prices for flights.",
+        
+        "issuing-section"                          : "Issuing Visas",
+        
+        "issuing-head"                             : "Issuing Visas",
+        
+        "issuing-title"                            : "Issuing Visas",
+        
+        "issuing-description"                      :
+          "We provide support for travelers to obtain visas by providing information about visa requirements, process of applications and contact with embassies, ensuring that travelers can travel smoothly and legally.",
+        
+        "tourism-visa-title"                      : "Tourism visa (single entry)",
+        
+        "tourism-visa-description"                : "I can help you book an airline ticket after you obtain your visa.\nVisa extensions are available for one or two months with the option to extend for an additional month at a cost of 1,200 dirhams. The cost of renewing the visa for two months ranges from 1550 to 1800 dirhams.",
+        
+        "multiple-visa-title"                     : "Multiple entry Tourism visa",
+        
+        "multiple-visa-description"               :
+        "I can help you book an airline ticket after you obtain your visa.",
+        
+        "family-visa-title"                       : "Family visitor visa",
+        
+        "family-visa-description"                 :"I can help you book an airline ticket after you obtain your visa.\nExtending the visa for an additional three months, the cost is between 2000-2500 dirhams.",
        
-        "tourism-programs"                         : "برامج السياحة",
-       
-        "comprehensive-travel"                     : "نقدم تجارب سفر شاملة مع حزم مخصصة وخبرة محلية، مما يوفر للمسافرين رحلة خالية من الضغوط",
+        "time-duration"                            : "2D",
         
-        "booking-your-flight"                      : "حجز رحلتك الجوية",
+        "pricing"                                  : "Pricing",
         
-        "reservations-world"                       : "حجوزات حول العالم",
+        "price_1"                                  : "1200 AED",
         
-        "mukhtar-company"                          : "تقدم شركة المختار حجوزات إلى وجهات حول العالم، مما يتيح للمسافرين اختيار شركات الطيران والوجهات المفضلة لديهم. بالإضافة إلى ذلك، نقدم خدمات الحجز المباشر للرحلات من وإلى دولة الإمارات العربية المتحدة، لتوفير أسعار سريعة وتنافسية للرحلات",
+        "price_2"                                  : "1000 AED",
         
-        "issuing-section"                          : "إصدار التأشيرات",
+        "price_3"                                  : "600 AED",
         
-        "issuing-head"                             : "إصدار التأشيرات",
+        "period"                                   : "Period",
         
-        "issuing-title"                            : "إصدار التأشيرات",
+        "period-duration"                          : "2 Month",
         
-        "issuing-description"                      : "نقدم المساعدة للمسافرين للحصول على التأشيرات من خلال توفير معلومات حول متطلبات التأشيرة وعملية التقديم والتواصل مع السفارات، مما يضمن أن المسافرين يستطيعون السفر بسلاسة وبشكل قانوني.",
+        "blogs"                                    : "All new",
         
-          "tourism-visa-title"                     : "تأشيرة السياحة (دخول واحد)",
+        "blogs-heading"                            : "Blog & News",
         
-          "tourism-visa-description"               : "يمكنني مساعدتك في حجز تذكرة طيران بعد الحصول على التأشيرة.\nيتوفر تمديد التأشيرة لمدة شهرين بخيار التمديد لشهر إضافي بتكلفة 1200 درهم. تتراوح تكلفة تجديد التأشيرة لشهرين بين 1550 إلى 1800 درهم.",
+        "blogs-description"                        : "Read and follow all that is new around the world. <br /> Everything you need to know is here.",
         
-          "multiple-visa-title"                    : "تأشيرة السياحة (مدخل متعدد)",
+        "blog-1-title"                             : "The best tourist destination",
         
-          "multiple-visa-description"              : "يمكنني مساعدتك في حجز تذكرة طيران بعد الحصول على التأشيرة",
+        "blog-1-date"                              : "July 17, 2023",
         
-        "family-visa-title"                        : "تأشيرة زائر عائلي",
+        "blog-1-content"                           : "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text and publishing industries for previewing ...",
         
-        "family-visa-description"                  :"يمكنني مساعدتك في حجز تذكرة طيران بعد الحصول على التأشيرة.\nتتراوح تكلفة تمديد التأشيرة لمدة ثلاثة أشهر بين 2000 إلى 2500 درهم.",
-       
-        "time-duration"                            : "2 يوم",
+        "blog-1-tags"                              : "#Tourism, #Dubai",
         
-        "pricing"                                  : "التسعير",
-        
-        "price_1"                                  : "1200 درهم",
-        
-        "price_2"                                  : "1000 درهم",
-        
-        "price_3"                                  : "600 درهم",
-        
-        "period"                                   : "المدة",
-        
-        "period-duration"                          : "شهرين",
-        
-        "blogs"                                    : "كل ما هو جديد",
-        
-        "blogs-heading"                            : "المدونة والأخبار",
-        
-        "blogs-description"                        : "اقرأ وتابع كل ما هو جديد حول العالم. <br /> كل ما تحتاج لمعرفته موجود هنا",
-        
-        "blog-1-title"                             : "أفضل وجهة سياحية",
-        
-        "blog-1-date"                              : "17 يوليو 2023",
-        
-        "blog-1-content"                           : "هذا النص وهمي يمكن استبداله حسب البيانات المتاحة .هذا النص وهمي يمكن استبداله حسب البيانات المتاحة .هذا النص وهمي يمكن استبداله حسب البيانات المتاحة .هذا النص وهمي يمكن استبداله حسب البيانات المتاحة",
-        
-        "blog-1-tags"                              : "#السياحة، #دبي",
-        
-        "view-more"                                : "عرض المزيد",
+        "view-more"                                : "VIEW MORE <i class='fa-solid fa-arrow-right ms-2'></i>",
         
         "about-head-container-h2"                  : "who we are ?",
         
@@ -304,7 +305,7 @@ let translations = {
         
         "contact-us"                               : "اتصل بنا",
         
-        "Created by:"                              : "تم الإنشاء بواسطة :",
+        "Created by :"                              : "تم الإنشاء بواسطة :",
         
         "EN"                                       : "Ar",
         
@@ -329,74 +330,73 @@ let translations = {
         "book-flights"                             : "احجز الرحلات المريحة بسهولة مع خدمة حجز تذاكر الطيران لدينا.",
         
         "issuance-of-visas"                        : "إصدار التأشيرات",
+
+        "visa-application"                         : "احصل على تأشيرتك بكل سهولة ويسر مع خدمة إصدار التأشيرات السهلة والمريحة لدينا، وتجنب عناء التقديم ومتابعة الإجراءات",
+
         
-        "visa-application"                         : "Experience hassle-free visa application with our easy and convenient visa application service",
+        "hotel-reservation-service"                : "خدمة حجز الفنادق",
         
-        "hotel-reservation-service"                : "Hotel reservation service",
+        "select-hotels"                            : "تقدم خدمة حجز الفنادق الخاصة بنا مجموعة واسعة من الفنادق والمنتجعات بأسعار تنافسية لإقامة مريحة وممتعة",
+      
+        "tourism-programs"                         : "برامج السياحة",
+      
+        "comprehensive-travel"                     : "نقدم تجارب سفر شاملة مع حزم مخصصة وخبرة محلية، مما يوفر للمسافرين رحلة خالية من الضغوط",
         
-        "select-hotels"                            : "Our hotel reservation service offers a wide selection of competitively-priced hotels and resorts for comfortable and enjoyable stay",
+        "booking-your-flight"                      : "حجز رحلتك الجوية",
+        
+        "reservations-world"                       : "حجوزات حول العالم .....",
+        
+        "mukhtar-company"                          : "تقدم شركة المختار حجوزات إلى وجهات حول العالم، مما يتيح للمسافرين اختيار شركات الطيران والوجهات المفضلة لديهم. بالإضافة إلى ذلك، نقدم خدمات الحجز المباشر للرحلات من وإلى دولة الإمارات العربية المتحدة، لتوفير أسعار سريعة وتنافسية للرحلات",
+        
+        "issuing-section"                          : "إصدار التأشيرات",
+        
+        "issuing-head"                             : "إصدار التأشيرات",
+        
+        "issuing-title"                            : "إصدار التأشيرات",
+        
+        "issuing-description"                      : "نقدم المساعدة للمسافرين للحصول على التأشيرات من خلال توفير معلومات حول متطلبات التأشيرة وعملية التقديم والتواصل مع السفارات، مما يضمن أن المسافرين يستطيعون السفر بسلاسة وبشكل قانوني.",
+        
+        "tourism-visa-title"                      : "تأشيرة السياحة (دخول واحد)",
+        
+        "tourism-visa-description"                : "يمكنني مساعدتك في حجز تذكرة طيران بعد الحصول على التأشيرة.\nيتوفر تمديد التأشيرة لمدة شهرين بخيار التمديد لشهر إضافي بتكلفة 1200 درهم. تتراوح تكلفة تجديد التأشيرة لشهرين بين 1550 إلى 1800 درهم.",
+        
+          "multiple-visa-title"                    : "تأشيرة السياحة (مدخل متعدد)",
+        
+          "multiple-visa-description"              : "يمكنني مساعدتك في حجز تذكرة طيران بعد الحصول على التأشيرة",
+        
+        "family-visa-title"                        : "تأشيرة زائر عائلي",
+        
+        "family-visa-description"                  :"يمكنني مساعدتك في حجز تذكرة طيران بعد الحصول على التأشيرة.\nتتراوح تكلفة تمديد التأشيرة لمدة ثلاثة أشهر بين 2000 إلى 2500 درهم.",
        
-        "tourism-programs"                         : "Tourism programs",
-       
-        "comprehensive-travel"                     : "We offer comprehensive travel experiences with customized packages and local expertise, providing travelers with stress-free trip",
+        "time-duration"                            : "2 يوم",
         
-        "booking-your-flight"                      : "Booking Your Flight",
+        "pricing"                                  : "التسعير",
         
-        "reservations-world"                       : "Reservations around the world ...",
+        "price_1"                                  : "1200 درهم",
         
-        "mukhtar-company"                          : "Al Mukhtar Company offers bookings to worldwide destinations, allowing travelers to choose their preferred airlines and destinations. In addition, we provide direct booking services for flights to and from the United Arab Emirates, in order to provide fast and competitive prices for flights.",
+        "price_2"                                  : "1000 درهم",
         
-        "issuing-section"                          : "Issuing Visas",
+        "price_3"                                  : "600 درهم",
         
-        "issuing-head"                             : "Issuing Visas",
+        "period"                                   : "المدة",
         
-        "issuing-title"                            : "Issuing Visas",
+        "period-duration"                          : "شهرين",
         
-        "issuing-description"                      :
-          "We provide support for travelers to obtain visas by providing information about visa requirements, process of applications and contact with embassies, ensuring that travelers can travel smoothly and legally.",
+        "blogs"                                    : "كل ما هو جديد",
         
-          "tourism-visa-title"                     : "Tourism visa (single entry)",
+        "blogs-heading"                            : "المدونة والأخبار",
         
-          "tourism-visa-description"               : "I can help you book an airline ticket after you obtain your visa.\nVisa extensions are available for one or two months with the option to extend for an additional month at a cost of 1,200 dirhams. The cost of renewing the visa for two months ranges from 1550 to 1800 dirhams.",
+        "blogs-description"                        : "اقرأ وتابع كل ما هو جديد حول العالم. <br /> كل ما تحتاج لمعرفته موجود هنا",
         
-          "multiple-visa-title"                    : "Multiple entry Tourism visa",
+        "blog-1-title"                             : "أفضل وجهة سياحية",
         
-          "multiple-visa-description"              :
-          "I can help you book an airline ticket after you obtain your visa.",
+        "blog-1-date"                              : "17 يوليو 2023",
         
-        "family-visa-title"                        : "Family visitor visa",
+        "blog-1-content"                           : "هذا النص وهمي يمكن استبداله حسب البيانات المتاحة .هذا النص وهمي يمكن استبداله حسب البيانات المتاحة .هذا النص وهمي يمكن استبداله حسب البيانات المتاحة .هذا النص وهمي يمكن استبداله حسب البيانات المتاحة",
         
-        "family-visa-description"                  :"I can help you book an airline ticket after you obtain your visa.\nExtending the visa for an additional three months, the cost is between 2000-2500 dirhams.",
-       
-        "time-duration"                            : "2D",
+        "blog-1-tags"                              : "#السياحة، #دبي",
         
-        "pricing"                                  : "Pricing",
-        
-        "price_1"                                  : "1200 AED",
-        
-        "price_2"                                  : "1000 AED",
-        
-        "price_3"                                  : "600 AED",
-        
-        "period"                                   : "Period",
-        
-        "period-duration"                          : "2 Month",
-        
-        "blogs"                                    : "All new",
-        
-        "blogs-heading"                            : "Blog & News",
-        
-        "blogs-description"                        : "Read and follow all that is new around the world. <br /> Everything you need to know is here.",
-        
-        "blog-1-title"                             : "The best tourist destination",
-        
-        "blog-1-date"                              : "July 17, 2023",
-        
-        "blog-1-content"                           : "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text and publishing industries for previewing ...",
-        
-        "blog-1-tags"                              : "#Tourism, #Dubai",
-        
-        "view-more"                                : "VIEW MORE",
+        "view-more"                                : "عرض المزيد <i class='fa-solid fa-arrow-left me-2 '></i>",
 
         "about-head-container-h2"                  : "من نحن ؟",
         
@@ -404,7 +404,7 @@ let translations = {
         
         "about-head-container-p"                   : "مرحبًا ، نحن وكالة المختار للسفر وهدفنا الوحيد هو ضمان ألا يمنعك طلب التأشيرة من تحقيق حلمك بالسفر حول العالم.",
         
-        "about-details-p"                          : "مع أكثر من 5 سنوات من الخبرة ، تلقى فريق وكالة المختار للسفريات الآلاف من طلبات خدمات السفر والسياحة بنجاح وتلقى الكثير من الشكر من قبل عملائنا الكرام والسعداء الذين تمكنوا من السفر لجميع أنحاء العالم <br> <br>  بالنسبة لنا ، يعتبر العميل أكثر أهمية. لهذا السبب ، في وكالة المختار للسفريات ، نتعامل مع حالة كل مسافر على أنه فريد ومميز. نتيجة لذلك ، نحن ندير كل تطبيق مع كل المسؤولية اللازمة.<br>  نتطلع إلى مقابلتك وتحقيق حلمك في رؤية العالم!",
+        "about-details-p"                          : "مع أكثر من 5 سنوات من الخبرة ، تلقى فريق وكالة المختار للسفريات الآلاف من طلبات خدمات السفر والسياحة بنجاح وتلقى الكثير من الشكر من قبل عملائنا الكرام والسعداء الذين تمكنوا من السفر لجميع أنحاء العالم <br> <br>  بالنسبة لنا ، يعتبر العميل أكثر أهمية. لهذا السبب ، في وكالة المختار للسفريات ، نتعامل مع حالة كل مسافر على أنه فريد ومميز. نتيجة لذلك ، نحن ندير كل تطبيق مع كل المسؤولية اللازمة.<br><br>  نتطلع إلى مقابلتك وتحقيق حلمك في رؤية العالم!",
 
         "about-achieve-span1"                      : "تأسيس وكالة المختار للسفريات" ,
 
@@ -426,17 +426,17 @@ let translations = {
 
         "reviews-carousel-item-span1"              : "travel agent" , 
 
-        "reviews-carousel-item-p1"                 : "لقد استخدمت موقع السفر هذا في رحلتي الأخيرة وكانت لدي تجربة ممتازة بشكل عام. كان البحث عن الرحلات الجوية والفنادق سهلًا وسريعًا ، وكان هناك العديد من الخيارات التي تناسب احتياجاتي. كانت الأسعار معقولة وتنافسية مقارنة بالمواقع الأخرى التي استخدمتها في الماضي. لقد استمتعت بتجربتي مع هذا الموقع وأوصي به بشدة لأي شخص يبحث عن خدمة سفر موثوقة وذات سمعة طيبة." ,
+        "reviews-carousel-item-p2"                 : "لقد استخدمت موقع السفر هذا في رحلتي الأخيرة وكانت لدي تجربة ممتازة بشكل عام. كان البحث عن الرحلات الجوية والفنادق سهلًا وسريعًا ، وكان هناك العديد من الخيارات التي تناسب احتياجاتي. كانت الأسعار معقولة وتنافسية مقارنة بالمواقع الأخرى التي استخدمتها في الماضي. لقد استمتعت بتجربتي مع هذا الموقع وأوصي به بشدة لأي شخص يبحث عن خدمة سفر موثوقة وذات سمعة طيبة." ,
 
-        "reviews-carousel-item-cite1"              : "— Ryan Peters" ,
+        "reviews-carousel-item-cite2"              : "— Ryan Peters" ,
 
-        "reviews-carousel-item-span1"              : "travel agent" , 
+        "reviews-carousel-item-span2"              : "travel agent" , 
 
-        "reviews-carousel-item-p1"                 : "لقد استخدمت موقع السفر هذا في رحلتي الأخيرة وكانت لدي تجربة ممتازة بشكل عام. كان البحث عن الرحلات الجوية والفنادق سهلًا وسريعًا ، وكان هناك العديد من الخيارات التي تناسب احتياجاتي. كانت الأسعار معقولة وتنافسية مقارنة بالمواقع الأخرى التي استخدمتها في الماضي. لقد استمتعت بتجربتي مع هذا الموقع وأوصي به بشدة لأي شخص يبحث عن خدمة سفر موثوقة وذات سمعة طيبة." ,
+        "reviews-carousel-item-p3"                 : "لقد استخدمت موقع السفر هذا في رحلتي الأخيرة وكانت لدي تجربة ممتازة بشكل عام. كان البحث عن الرحلات الجوية والفنادق سهلًا وسريعًا ، وكان هناك العديد من الخيارات التي تناسب احتياجاتي. كانت الأسعار معقولة وتنافسية مقارنة بالمواقع الأخرى التي استخدمتها في الماضي. لقد استمتعت بتجربتي مع هذا الموقع وأوصي به بشدة لأي شخص يبحث عن خدمة سفر موثوقة وذات سمعة طيبة." ,
 
-        "reviews-carousel-item-cite1"              : "— Jean Smith" ,
+        "reviews-carousel-item-cite3"              : "— Jean Smith" ,
 
-        "reviews-carousel-item-span1"              : "travel agent" , 
+        "reviews-carousel-item-span3"              : "travel agent" , 
 
         "Questions-head-container-h2"              : "الأسئلة الشائعة" ,
 
@@ -585,3 +585,97 @@ let translations = {
         "footer-End-p"                             : "Copyright &copy; 2021 Almukhtar. All rights reserveds" ,
     },
 }
+let elements = document.querySelectorAll("[data-tr]");
+const lang = document.querySelector('.selected-lang')
+console.log(lang.options.length)
+
+const langg = document.querySelector('.lang-mobile')
+console.log(langg)
+console.log(langg.options[0])
+console.log(langg.options[1])
+
+let myHtml = document.querySelector("html")
+
+let bottomHeader = document.querySelector(".bottom-header")
+
+// lang.forEach ((e) => {
+//   e.addEventListener('change' , () => {
+//     if (e.value == "ar") {
+      
+//       elements.forEach((element) => {
+//         let translationKey = element.getAttribute("data-tr");
+//         element.innerHTML = translations["ar"][translationKey];
+//         myHtml.setAttribute("dir" , "rtl")
+//         element.style.fontFamily  = "'Tajawal', sans-serif";
+//         document.body.classList.add("ar")
+        
+//       });
+//     }else{
+//       elements.forEach((element) => {
+//         let translationKey = element.getAttribute("data-tr");
+//         element.innerHTML = translations["en"][translationKey];
+//         element.style.fontFamily  = "'Raleway', sans-serif";
+//         myHtml.setAttribute("dir" , "ltr")
+//         document.body.classList.remove("ar")
+
+//       });
+//     }
+//   })
+// })
+
+
+
+
+
+  lang.addEventListener('change' , () => {
+    if (lang.value == "ar") {
+      langg.options[1].selected = true;
+      elements.forEach((element) => {
+        let translationKey = element.getAttribute("data-tr");
+        element.innerHTML = translations["ar"][translationKey];
+        myHtml.setAttribute("dir" , "rtl")
+        element.style.fontFamily  = "'Tajawal', sans-serif";
+        document.body.classList.add("ar")
+        
+      });
+    }else{
+      langg.options[0].selected = true;
+      elements.forEach((element) => {
+        let translationKey = element.getAttribute("data-tr");
+        element.innerHTML = translations["en"][translationKey];
+        element.style.fontFamily  = "'Raleway', sans-serif";
+        myHtml.setAttribute("dir" , "ltr")
+        document.body.classList.remove("ar")
+
+      });
+    }
+  })
+
+
+
+
+
+    langg.addEventListener('change' , () => {
+      if (langg.value == "ar") {
+        lang.options[1].selected = true;
+        elements.forEach((element) => {
+          let translationKey = element.getAttribute("data-tr");
+        element.innerHTML = translations["ar"][translationKey];
+        myHtml.setAttribute("dir" , "rtl")
+        element.style.fontFamily  = "'Tajawal', sans-serif";
+        document.body.classList.add("ar")
+        
+      });
+    }else{
+      lang.options[0].selected = true;
+      elements.forEach((element) => {
+        let translationKey = element.getAttribute("data-tr");
+        element.innerHTML = translations["en"][translationKey];
+        // document.body.style.fontFamily  = "'Raleway', sans-serif";
+        element.style.fontFamily  = "'Raleway', sans-serif";
+        myHtml.setAttribute("dir" , "ltr")
+        document.body.classList.remove("ar")
+
+      });
+    }
+  })
