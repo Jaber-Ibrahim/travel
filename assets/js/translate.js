@@ -600,7 +600,8 @@ console.log(langg.options[1])
 let myHtml = document.querySelector("html")
 
 
-
+let myInputs = document.querySelectorAll(".my-Email");
+console.log(myInputs)
 
 
 
@@ -609,6 +610,9 @@ let myHtml = document.querySelector("html")
     let elements = document.querySelectorAll("[data-tr]");
     let logo = document.querySelector("#logo");
     if (lang.value == "ar") {
+      myInputs.forEach(input => {
+        input.placeholder = "أدخل بريدك الإلكتروني"
+      });
       langg.options[1].selected = true;
       logo.innerHTML = `<img src="./assets/img/arabic-logo.svg" alt="">`
       elements.forEach((element) => {
@@ -620,6 +624,9 @@ let myHtml = document.querySelector("html")
         
       });
     }else{
+      myInputs.forEach(input => {
+        input.placeholder = "ُEnter Your Email"
+      });
       langg.options[0].selected = true;
       logo.innerHTML = `<img src="./assets/img/Layer 3.svg" alt="">`
       elements.forEach((element) => {
@@ -640,6 +647,9 @@ let myHtml = document.querySelector("html")
     langg.addEventListener('change' , () => {
       let elements = document.querySelectorAll("[data-tr]");
       if (langg.value == "ar") {
+        myInputs.forEach(input => {
+          input.placeholder = "أدخل بريدك الإلكتروني"
+        });
         lang.options[1].selected = true;
         logo.innerHTML = `<img src="./assets/img/arabic-logo.svg" alt="">`
         elements.forEach((element) => {
@@ -651,6 +661,9 @@ let myHtml = document.querySelector("html")
         
       });
     }else{
+      myInputs.forEach(input => {
+        input.placeholder = "Enter Your Email"
+      });
       lang.options[0].selected = true;
       logo.innerHTML = `<img src="./assets/img/Layer 3.svg" alt="">`
       elements.forEach((element) => {
