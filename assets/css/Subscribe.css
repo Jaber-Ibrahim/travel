@@ -177,6 +177,7 @@
     .Subscribe .form form button {
         font-size: .9rem;
         padding: 11px 6px 9px 6px;
+        min-width: 100px;
     }
     
 }
