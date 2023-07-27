@@ -10,25 +10,27 @@
     justify-content: center;
     align-items: center;
 }
-  .pop .pop__card {
+.pop .pop__card {
     display: flex;
     flex-direction: column;
-    height: max-content;
-    padding-left: 9%;
-    padding-right: 9%;
     position: relative;
-    cursor: pointer;
-  }
+    width: 82.43%;
+    height: 100%;
+    overflow-y: scroll;
+}
+  .pop .pop__card .pop__card-img {
+    width: 100%;
+    height: 594px;
+  } 
   .pop .pop__card img {
-      min-width: 296px;
-      max-height: 594px;
-      min-height: 296px;
+      width: 100%;
+      height: 100%;
   }
 
   .pop .pop__card .Myclose-icon {
     position: absolute;
     z-index: 300;
-    right: 10%;
+    right: 2%;
     top: 2%;
     cursor: pointer;
     transition: all .3s;
@@ -92,17 +94,12 @@
   .pop .pop__tail {
     background-color: white;
     padding: 0 0 32px 32px;
+    text-transform: capitalize;
   }
 
 
 @media(max-width:767px) {
-  .pop .pop__card {
-    padding-left: 0;
-    padding-right: 0;
-    width: 90%;
-}
-  .pop .pop__card .pop__title {
-    background-color: white;
+    .pop .pop__card .pop__title {
     padding: 24px 24px 0; 
     flex-direction: column;
 }
@@ -113,10 +110,6 @@
 .pop .pop__card .pop__title-date, .pop .pop__tail {
   font-size: .8895rem;
   line-height: 20.671px;
-}
-.pop .pop__card .Myclose-icon {
-  right: 2%;
-  top: 2%;
 }
 .pop .pop__card .pop__info p {
   font-size: 1.2rem;

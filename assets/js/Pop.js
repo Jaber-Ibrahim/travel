@@ -125,24 +125,26 @@ function showPopUp(array) {
         myPop.innerHTML += `
         <div class="pop">
 
-        <div class= "pop__card">
-        <div class="Myclose-icon">
-        <i class="fa-solid fa-close"></i>
-   </div>
-          <img src = ${array[i].img} alt="tower" />
-          <div class="pop__title">
-            <h1 class="pop__title-h1">
-            ${(l1.value == "en" || l2.value == "en")? array[i].title : array[i].title_ar}
-            </h1>
-            <span class="pop__title-date">17/4/2023</span>
-          </div>
-          <div class="pop__info">
-           <p>
-           ${(l1.value == "en" || l2.value == "en")? array[i].desc : array[i].desc_ar}
-           
-           </p>
-          </div>
-          <span class="pop__tail">#tourism # dubai</span>
+          <div class= "pop__card">
+            <div class="Myclose-icon">
+              <i class="fa-solid fa-close"></i>
+            </div>
+            <div class="pop__card-img">
+                <img src = ${array[i].img} alt="tower" />
+        
+            </div>
+            <div class="pop__title">
+              <h1 class="pop__title-h1">
+                ${(l1.value == "en" || l2.value == "en")? array[i].title : array[i].title_ar}
+              </h1>
+              <span class="pop__title-date">17/4/2023</span>
+            </div>
+            <div class="pop__info">
+              <p>
+                ${(l1.value == "en" || l2.value == "en")? array[i].desc : array[i].desc_ar}
+              </p>
+            </div>
+            <span class="pop__tail">#tourism # dubai</span>
         </div>
       </div>
              `;
