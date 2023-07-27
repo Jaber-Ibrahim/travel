@@ -14,7 +14,7 @@ function fetchData() {
             "desc" : "111111Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium cupiditate suscipit consectetur quo ipsa cum illum omnis ad! Ab enim consequatur minima odio aut error ipsum est sequi vitae!",
             "title_ar"       : "111111افضل وجهة سياحية",
             "desc_ar" : "111111هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة",
-            img     :  "/assets/img/bolgImgs/12.png",
+            img     :  "./assets/img/bolgImgs/12.png",
             id : 1
         },
         {
@@ -22,7 +22,7 @@ function fetchData() {
             "desc" : "222222Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium cupiditate suscipit consectetur quo ipsa cum illum omnis ad! Ab enim consequatur minima odio aut error ipsum est sequi vitae!",
             "title_ar"       : "222222افضل وجهة سياحية",
             "desc_ar" : "2222222هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة",
-            img     :  "/assets/img/bolgImgs/12.png",
+            img     :  "./assets/img/bolgImgs/12.png",
             id : 2
         },
         {
@@ -30,7 +30,7 @@ function fetchData() {
             "desc" : "3333Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium cupiditate suscipit consectetur quo ipsa cum illum omnis ad! Ab enim consequatur minima odio aut error ipsum est sequi vitae!",
             "title_ar"       : "3333افضل وجهة سياحية",
             "desc_ar" : "333333هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة",
-            img     :  "/assets/img/bolgImgs/12.png",
+            img     :  "./assets/img/bolgImgs/12.png",
             id : 3
         },
         {
@@ -38,7 +38,7 @@ function fetchData() {
             "desc" : "444444Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium cupiditate suscipit consectetur quo ipsa cum illum omnis ad! Ab enim consequatur minima odio aut error ipsum est sequi vitae!",
             "title_ar"       : "444444افضل وجهة سياحية",
             "desc_ar" : "444444هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة",
-            img     :  "/assets/img/bolgImgs/12.png",
+            img     :  "./assets/img/bolgImgs/12.png",
             id : 4
         },
         {
@@ -46,7 +46,7 @@ function fetchData() {
             "desc" : "555555Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium cupiditate suscipit consectetur quo ipsa cum illum omnis ad! Ab enim consequatur minima odio aut error ipsum est sequi vitae!",
             "title_ar"       : "555555افضل وجهة سياحية",
             "desc_ar" : "555555هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة",
-            img     :  "/assets/img/bolgImgs/12.png",
+            img     :  "./assets/img/bolgImgs/12.png",
             id : 5
         },
         {
@@ -54,7 +54,7 @@ function fetchData() {
             "desc" : "666666Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus accusantium cupiditate suscipit consectetur quo ipsa cum illum omnis ad! Ab enim consequatur minima odio aut error ipsum est sequi vitae! Ab enim consequatur minima odio aut error ipsum est sequi vitae!Ab enim consequatur minima odio aut error ipsum est sequi vitae!Ab enim consequatur minima odio aut error ipsum est sequi vitae!Ab enim consequatur minima odio aut error ipsum est sequi vitae!Ab enim consequatur minima odio aut error ipsum est sequi vitae!Ab enim consequatur minima odio aut error ipsum est sequi vitae!",
             "title_ar"       : "666666افضل وجهة سياحية",
             "desc_ar" : "666666هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة هذ النص وهمي يمكن استبداله حسب البيانات المتاحة",
-            img     :  "/assets/img/bolgImgs/12.png",
+            img     :  "./assets/img/bolgImgs/12.png",
             id : 6
         },
 
