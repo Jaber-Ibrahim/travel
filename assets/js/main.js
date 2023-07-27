@@ -6,7 +6,7 @@ const sections = document.querySelectorAll("section[id]");
 let myLang = document.querySelector(".top-header .lang") ;
 
 
-console.log(sections)
+// console.log(sections)
 
     window.addEventListener("scroll", navHighlighter);
     function navHighlighter() {
@@ -35,7 +35,7 @@ console.log(sections)
             })}
 // main nav
 const nav = document.querySelector(".bottom-header")
-console.log(nav)
+// console.log(nav)
 window.onscroll = () => {
     if(window.scrollY >= 40){
         nav.classList.add("fixed");
@@ -143,6 +143,7 @@ for(let m = 0 ; m< issuingCards.length ; m++) {
 
 // slider blogs
 const blogCards = document.querySelectorAll(".cards-blog .card");
+const blogCardsImg = document.querySelectorAll(".cards-blog .card img");
 const dotsBl = document.querySelector(".dots-blog")
 
 for(let i = 0 ; i < dotsBl.children.length ; i++ ) {
@@ -167,8 +168,8 @@ for(let i = 0 ; i < dotsBl.children.length ; i++ ) {
         dotsBl.children[i].classList.add("active-dot-bl")
     }
 }
-for (let k = 0 ; k < blogCards.length ; k++) {
-    blogCards[k].onclick = () => {
+for (let k = 0 ; k < blogCardsImg.length ; k++) {
+    blogCardsImg[k].onclick = () => {
         // console.log("ssss")
         dotsBl.children[k].click()
     }

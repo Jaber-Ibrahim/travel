@@ -590,18 +590,18 @@ let translations = {
     },
 }
 const lang = document.querySelector('.selected-lang')
-console.log(lang.options.length)
+// console.log(lang.options.length)
 
 const langg = document.querySelector('.lang-mobile')
-console.log(langg)
-console.log(langg.options[0])
-console.log(langg.options[1])
+// console.log(langg)
+// console.log(langg.options[0])
+// console.log(langg.options[1])
 
 let myHtml = document.querySelector("html")
 
 
 let myInputs = document.querySelectorAll(".my-Email");
-console.log(myInputs)
+// console.log(myInputs)
 
 
 

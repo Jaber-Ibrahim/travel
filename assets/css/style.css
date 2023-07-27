@@ -1065,7 +1065,7 @@ a {
     }
     .cards-issuing {
         position: relative;
-        height: 600px;
+        height: 500px;
         width: 100%;
         overflow: hidden;
     }
@@ -1178,6 +1178,7 @@ a {
     }
     .issuing .dots {
         margin: 0;
+        transform: translateY(60px);
     }
     .cards-issuing .card.prev-card {
         opacity: 40%;
@@ -1258,7 +1259,7 @@ a {
     text-transform: uppercase;
 }
 .blogs p {
-    margin: 20px auto 0;
+    margin: 16px auto;
     width: 80%;
     color: #383838;
     font-family: 'Open Sans' !important;
@@ -1289,6 +1290,7 @@ a {
 .blogs .cards-blog .card {
     margin: 30px 10px;
     box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
 }
 .blogs .cards-blog .card .text{
     text-align: start;
@@ -1306,6 +1308,9 @@ a {
 .blogs .cards-blog .card .text p {
     color: #393939;
     width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 120px;
 }
 .blogs .cards-blog .card .text .date {
     margin: 5px auto 0;
@@ -1323,7 +1328,7 @@ a {
     font-style: normal;
     font-weight: 400;                   
 }
-.blogs .cards-blog .card .text .link a {
+.blogs .cards-blog .card .text .link button {
     color: #383838;
     text-align: center;
     font-family: 'Open Sans' !important;
@@ -1332,8 +1337,11 @@ a {
     font-weight: 600;
     display: flex;
     align-items: center;
+    border: none;
+    background-color: transparent;
+    width: 100%;
 }
-.blogs .cards-blog .card .text .link a svg {
+.blogs .cards-blog .card .text .link button svg {
     color: #F56960;
     margin: 10px 0;
 }
@@ -1366,17 +1374,19 @@ a {
         position: relative;
         width: 100%;
         overflow: hidden;
-        height: 600px;
+        height: 500px;
     }
-    .cards-blog .card {
+    .blogs .cards-blog .card {
         top: 0 ;
         cursor: pointer;
         transition-duration: .7s;
         position: absolute;
         /* opacity: 0%; */
         display: none;
-        width: 350px;
+        width: 300px;
         /* height: 550px; */
+        margin: 0;
+        padding-bottom: 0;
     }
     .blogs .cards-blog {
         margin-top: 0;
@@ -1396,6 +1406,7 @@ a {
         font-weight: 400;
         line-height: 14px;
         text-align: start;
+        height: 42px;
     }
     .blogs .cards-blog .card .text .date {
         margin: 5px auto 0;
@@ -1413,14 +1424,14 @@ a {
         font-style: normal;
         font-weight: 400;          
     }
-    .blogs .cards-blog .card .text .link a {
+    .blogs .cards-blog .card .text .link button {
         color: #383838;
         font-family: 'Open Sans' !important;
         font-size: 12px;
         font-style: normal;
         font-weight: 600;
     }
-    .blogs .cards-blog .card .text .link a svg {
+    .blogs .cards-blog .card .text .link button svg {
         color: #F56960;
         margin: 10px 0;
         font-size: 13px;
@@ -1460,12 +1471,12 @@ a {
     }
 }
 @media(max-width : 767px) {
-    .cards-blog .card {
+    .blogs .cards-blog .card {
         width: 200px;
         /* height: 340px; */
     }
     .cards-blog {
-        height: 470px;
+        height: 400px;
     }
     .blogs .cards-blog .card .text{
         padding: 5px 10px;
@@ -1484,14 +1495,14 @@ a {
         margin: 2px 0;
         /* font-size: 6px;       */
     }
-    .blogs .cards-blog .card .text .link a {
+    .blogs .cards-blog .card .text .link button {
         color: #383838;
         font-family: 'Open Sans' !important;
         font-size: 12px;
         font-style: normal;
         font-weight: 600;
     }
-    .blogs .cards-blog .card .text .link a svg {
+    .blogs .cards-blog .card .text .link button svg {
         font-size: 10px;
     }
     .blogs button.read-more {
@@ -1526,6 +1537,9 @@ a {
 @media(max-width : 767px) {
     .blogs .dots-blog {
         transform: translateY(-40px);
+    }
+    .issuing .dots {
+        transform: translateY(0);
     }
 }
 

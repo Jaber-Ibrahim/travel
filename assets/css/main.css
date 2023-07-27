@@ -36,7 +36,6 @@ ul {
 }
 .head-container .main-heading {
     color: var(--main-color);
-    color: #101F46;
     font-size: 4.8rem;
     font-weight: var(--fw-900);
     line-height: 52.8px;
